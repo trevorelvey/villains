@@ -12,7 +12,7 @@ $(document).ready(function() {
       $("#loki").show();
 
     } else if (humorVariable === "pro-humor" && capeVariable === "anti-cape") {
-      result = "Joker";
+      result = "the Joker";
       $("#joker").show();
 
     } else if (humorVariable === "anti-humor" && capeVariable === "pro-cape") {
