@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="css/bootstrap.css" type="text/css" rel="stylesheet" media="all">
+    <link rel="stylesheet" href="css/styles.css" media="screen">
+    <script src="js/jquery-1.12.0.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/scripts.js"></script>
+    <meta charset="utf-8">
+    <title>Villian Quiz</title>
+  </head>
+  <body>
+    <div class="container">
+      <form id="villains">
+        <label for="humor">Do you have a sense of humor?</label>
+        <select class="input-lg" id="humor">
+          <option id="select" value="anti-humor">No, I hate being happy.</option>
+          <option value="pro-humor">Yes!!!</option>
+        </select>
+        <br>
+        <label for="capes">How do you feel about capes?</label>
+        <select class="input-lg" id="capes">
+          <option value="anti-cape">The worst.</option>
+          <option value="pro-cape">I like some pomp and circumstance.</option>
+        </select>
+        <br>
+        <button type="submit" class="btn btn-lg btn-success">Submit</button>
+      </form>
+      <div id="result">
+        <p>You are <span id="position"></span>.</p>
+        <div class="row">
+          <div class="col-md-6">
+            <img od="joker "src="images/joke.jpg" alt="A picture of the Joker">
+            <img id="snow" src="images/presidentSnow.jpg" alt="A picture of the President Snow">
+            <img id="vader" src="images/darthVader.jpg" alt="A picture of the Darth Vader">
+            <img id="loki" src="images/loki.jpg" alt="A picture of Loki">
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

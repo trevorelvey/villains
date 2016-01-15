@@ -1,0 +1,22 @@
+img {
+  display: none;
+  width: 100%;
+  height: auto;
+}
+#result {
+  display: none;
+  font-size: 50px;
+}
+
+form {
+  font-size: 40px;
+}
+
+#loki {
+  background-color: green;
+}
+
+body {
+  background-color: #cccccc;
+  font-family: Impact, Haettenschweiler, 'Franklin Gothic Bold', Charcoal, 'Helvetica Inserat', 'Bitstream Vera Sans Bold', 'Arial Black', 'sans serif';
+}
